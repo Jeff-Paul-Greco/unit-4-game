@@ -1,0 +1,74 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 42px;
+    color: white;
+    background-color: rgb(204, 133, 0);
+    padding: 25px 0px 25px 0px;
+    width: fit-content;
+    margin: 10px 10px;
+}
+
+
+p { 
+    padding: 15px 0 15px 0;
+    font-size: 24px;
+    color: rgb(0, 175, 0);
+    font-weight: bold;
+}
+
+#instructions {
+    width: 550px;
+    height: 550px;
+    background-color: rgb(173, 173, 173);
+    margin: 0px 10px 10px 10px;
+
+}
+
+#score-goal {
+    width: 277px;
+    height: 140px;
+    background-color: rgb(59, 177, 59);
+    margin: 0px 10px 10px 10px; 
+    float: left;
+}
+
+#wrapper {
+    width: fit-content;
+}
+
+#win-loss {
+    height: 140px;
+    width: 150px;
+    background-color: rgb(132, 132, 250);
+    color: blue;
+    margin: 0px 10px 10px 0px;
+    float: right;
+}
+
+#total-text {
+    width: 277px;
+    height: fit-content;
+    margin: 10px 10px 10px 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    clear: both;
+}
+
+#score {
+    width: 277px;
+    height: 125px;
+    margin: 10px 10px 10px 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+
