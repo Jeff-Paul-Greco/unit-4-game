@@ -4,6 +4,16 @@ body {
     background-size: cover;
 }
 
+.crystal-img {
+    width: 150px;
+    height: 150px;
+    margin: 0px 5px;
+}
+
+.crystal-img:first-child {
+    margin-left: 10px;
+}
+
 h1 {
     font-weight: bolder;
     font-size: 42px;
@@ -16,7 +26,7 @@ h1 {
 
 
 p { 
-    padding: 15px 0 15px 0;
+    padding: 15px 5px 15px 5px;
     font-size: 24px;
     color: rgb(0, 175, 0);
     font-weight: bold;
@@ -33,6 +43,8 @@ p {
 #score-goal {
     width: 277px;
     height: 140px;
+    font-size: 50px;
+    color: purple;
     background-color: rgb(59, 177, 59);
     margin: 0px 10px 10px 10px; 
     float: left;
@@ -47,7 +59,10 @@ p {
     width: 150px;
     background-color: rgb(132, 132, 250);
     color: blue;
+    font-size: 34px;
+    line-height: 60px;
     margin: 0px 10px 10px 0px;
+    text-align: center;
     float: right;
 }
 
