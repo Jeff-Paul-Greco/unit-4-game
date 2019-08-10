@@ -15,18 +15,25 @@ body {
 }
 
 h1 {
+    font-family: "Palatino";
     font-weight: bolder;
     font-size: 42px;
     color: white;
-    background-color: rgb(204, 133, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/logo.jpg");
     padding: 25px 0px 25px 0px;
     width: fit-content;
     margin: 10px 10px;
+    border-style: solid;
+    text-shadow: black 2px 2px;
+    border-width: 3px 3px;
+    border-color: black;
 }
 
 p { 
     padding: 15px 5px 15px 5px;
-    font-size: 24px;
+    font-size: 26px;
     color: rgb(0, 175, 0);
     font-weight: bold;
 }
@@ -34,9 +41,12 @@ p {
 #instructions {
     width: 550px;
     height: 550px;
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(173, 173, 173, 0.5);
+    border-style: solid;
+    text-shadow: black 2px 2px;
+    border-width: 3px 3px;
+    border-color: red;
     margin: 0px 10px 10px 10px;
-
 }
 
 #score-goal {
@@ -54,6 +64,7 @@ p {
 }
 
 #win-loss {
+    font-family: "Comic Sans MS", cursive, sans-serif;
     height: 140px;
     width: 150px;
     background-color: rgb(132, 132, 250);
