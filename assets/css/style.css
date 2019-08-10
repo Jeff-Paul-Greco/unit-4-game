@@ -24,7 +24,6 @@ h1 {
     margin: 10px 10px;
 }
 
-
 p { 
     padding: 15px 5px 15px 5px;
     font-size: 24px;
@@ -60,7 +59,7 @@ p {
     background-color: rgb(132, 132, 250);
     color: blue;
     font-size: 34px;
-    line-height: 60px;
+    line-height: 40px;
     margin: 0px 10px 10px 0px;
     text-align: center;
     float: right;
@@ -84,6 +83,5 @@ p {
     background-color: blue;
     color: white;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 50px;
 }
-
