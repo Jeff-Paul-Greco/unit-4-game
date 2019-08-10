@@ -21,7 +21,6 @@ function startGame() {
         crystal.addClass("crystal-img");
         crystal.attr("src", crystalImages[i]);
         crystal.attr("crystal-value", crystalValue);
-        console.log(crystalValue);
         $("#crystals").append(crystal);
     }
 
