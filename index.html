@@ -12,30 +12,35 @@
 </head>
 
 <body>
+        
 
-    <h1>CrystalsCollector!</h1>
+    <div class="instructions-container">
+            <h1>CrystalsCollector!</h1>
 
-    <div id="instructions">
-        <p>You will be given a random number at the start of the game.</p>
-        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of
-            points to your total score.</p>
-        <p>You win the game by matching your total score to random number, you lose the game if your total
-            score goes above the random number.</p>
-        <p>The value of each crystal is hidden from you until you click on it</p>
-        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        <div id="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of
+                points to your total score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total
+                score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
     </div>
 
-    <div id="wrapper">
-        <div id="score-goal"></div>
+    <div class="game-container">
+        <div id="wrapper">
+            <div id="score-goal"></div>
 
-        <div id="win-loss"></div>
+            <div id="win-loss"></div>
+        </div>
+
+        <div id="crystals"></div>
+
+        <div id="total-text">Your total score is:</div>
+
+        <div id="score"></div>
     </div>
-
-    <div id="crystals"></div>
-
-    <div id="total-text">Your total score is:</div>
-
-    <div id="score"></div>
 
     <script src="assets/javascript/game.js"></script>
 

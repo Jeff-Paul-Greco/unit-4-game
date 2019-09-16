@@ -2,6 +2,8 @@ body {
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    margin-top: 3%;
 }
 
 .crystal-img {
@@ -23,12 +25,13 @@ h1 {
     background-size: cover;
     background-image: url("../images/logo.jpg");
     padding: 25px 0px 25px 0px;
-    width: fit-content;
+    width: 100hh;
     margin: 10px 10px;
     border-style: solid;
     text-shadow: black 2px 2px;
     border-width: 3px 3px;
     border-color: black;
+    display: inline-block;
 }
 
 p { 
@@ -95,4 +98,14 @@ p {
     color: white;
     font-weight: bold;
     font-size: 50px;
+}
+
+.instructions-container {
+    float: left;
+}
+
+.game-container {
+    margin-top: 8.5%;
+    margin-right: 4%;
+    float: right;
 }
